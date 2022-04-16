@@ -1,0 +1,25 @@
+  /* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{		
+		Scanner sc= new Scanner(System.in);
+		int x= sc.nextInt();
+		int size= sc.nextInt();//size of the array 
+		int number[]=new int[size];
+		for(int i=0;i<size;i++){
+			number[i]=sc.nextInt();//this is for input of the numbers
+		}
+		for(int i=0;i<size;i++){
+			if(number[i]==x){
+			System.out.println(i);
+			}
+		}
+		}
+	}
